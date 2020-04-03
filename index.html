@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Rock Paper Scissors</h1>
+        </header>
+        <main>
+            <!-- 
+                Image of rock, paper, scissors (one that picked appears?) -->
+            <section>
+                <button type ="button" id="rockButton">Rock</button>
+                <button type ="button" id="paperButton">Paper</button>
+                <button type ="button" id="scissorsButton">Scissors</button>
+            </section>
+
+            <section>
+            <!-- Notification of what you picked.--> 
+                <p>You picked: </p>
+                <p id="userChose"></p>
+                <p>Opponent picked: </p>
+                <p id="computerChose"></p>
+            </section>
+            
+            <!-- Scoreboard that updates --> 
+            <section>
+                <p>Scoreboard: </p>
+            </section>
+        </main>
+        <script src="main.js"></script>
+    </body>
+</html>
